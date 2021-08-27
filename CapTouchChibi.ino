@@ -1,7 +1,7 @@
 #include <Adafruit_CircuitPlayground.h>
 
 #define CAP_PIN1 A1 // change this number to read a different pin! 
-#define THRESHOLD 800 // the min. reading we're counting as a touch!
+#define THRESHOLD 900 // the min. reading we're counting as a touch!
 
 int led = 3; // connect led sticker to A4 (pin 3)
 
