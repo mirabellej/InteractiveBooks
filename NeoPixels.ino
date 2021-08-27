@@ -16,11 +16,11 @@ void loop() {
   CircuitPlayground.setPixelColor(3,   0, 128, 128);
   CircuitPlayground.setPixelColor(4,   0,   0, 255);
   
-  CircuitPlayground.setPixelColor(5, 0xFF0000);
-  CircuitPlayground.setPixelColor(6, 0x808000);
-  CircuitPlayground.setPixelColor(7, 0x00FF00);
-  CircuitPlayground.setPixelColor(8, 0x008080);
-  CircuitPlayground.setPixelColor(9, 0x0000FF);
+  CircuitPlayground.setPixelColor(5, 20,   80, 255);
+  CircuitPlayground.setPixelColor(6, 40,   50, 255);
+  CircuitPlayground.setPixelColor(7, 60, 90, 100);
+  CircuitPlayground.setPixelColor(8, 10, 30, 80);
+  CircuitPlayground.setPixelColor(9, 130, 80, 30);
  
   delay(5000); // how long should they be on for?
 }
