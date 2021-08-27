@@ -1,7 +1,7 @@
 #include <Adafruit_CircuitPlayground.h> // include the adafruit circuit playground library 
 
 int light_value; // this variable will store our light sensor value allowing us to do THINGS with it!
-int threshold = 100;
+int threshold = 100; // this is the threshold over or under which things will happen
 
 void setup() {
   Serial.begin(9600); // initialize serial
