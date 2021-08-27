@@ -2,7 +2,6 @@
 
 int led = 3; // connect led sticker to A4 (pin 3)
 
-// the setup routine runs once when you press reset:
 void setup() {
 
   CircuitPlayground.begin();
@@ -14,6 +13,6 @@ void setup() {
 void loop() {
   digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);
-  digitalWrite(led, LOW);   // turn the LED on (LOW is the voltage level)
+  digitalWrite(led, LOW);   // turn the LED off (LOW is the voltage level)
   delay(1000);
 }
