@@ -14,8 +14,8 @@ void loop() {
   Serial.print("Light Sensor: "); // print out "light sensor"
   Serial.println(light_value); // print the current value for the light sensor
 
-  // If it's bright light, turn the LEDs to red
-  if (light_value <= threshold) {
+  // If the condition is true, turn the LEDs to red
+  if (light_value >= threshold) {
     for (int i = 0; i < 10; i++) { // use a for loop to go from one pixel to the next
       CircuitPlayground.setPixelColor(i, 255,   0,   0); // and set the color for the that pixel in RGB
     }
