@@ -31,5 +31,5 @@ void loop() {
     // CircuitPlayground.playTone(90, 100); 
   }
 
-  delay(500); // delay of 1 second (1000 milliseconds) between readings
+  delay(500); // delay of half a second (500 milliseconds) between readings
 }
